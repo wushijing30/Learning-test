@@ -11,9 +11,9 @@ public class CustomClassLoader extends ClassLoader {
 		this.name = name;
 	}
 	
-	/*@Override
+	@Override
 	protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException{
 		
-	}*/
+	}
 
 }
