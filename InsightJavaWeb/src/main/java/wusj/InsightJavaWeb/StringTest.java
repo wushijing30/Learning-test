@@ -1,5 +1,6 @@
 package wusj.InsightJavaWeb;
 
+
 public class StringTest {
 
 	public static void main(String[] args) {
@@ -13,8 +14,9 @@ public class StringTest {
 		
 		System.out.println("hashCode:" + str.hashCode() + str.toString());
 		System.out.println(str.concat("ffff"));
-		 char buf[] = new char[10];
+		char buf[] = new char[10];
 		//str.getChars(buf, 4);
-
+		System.out.println(str.indexOf(""));
+		 
 	}
 }
